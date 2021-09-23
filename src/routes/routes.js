@@ -1,12 +1,11 @@
 const { Router } = require('express');
 
-const PipedriveController = require('../controllers/PipedriveController');
-const BlingController = require('../controllers/BlingController');
+const IntegrationController = require('../controllers/IntegrationController');
+const OportunityController = require('../controllers/OportunityController');
 
 const routes = Router();
 
-routes.get('/pipedrive', PipedriveController.index);
-
-routes.get('/bling', BlingController.index);
+routes.get('/bling', IntegrationController.index) //Aqui faz a integracao
+routes.get('/pipedrive', OportunityController.index) //Aqui faz a listagem de oportunidades
 
 module.exports = routes;

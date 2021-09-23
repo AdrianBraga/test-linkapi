@@ -5,7 +5,7 @@ const pipedriveApi = axios.create({
 });
 
 const blingApi = axios.create({
-  baseURL: `https://bling.com.br/Api/v2/produtos/json/&apikey=${process.env.API_KEY_BLING}`,
+  baseURL: `https://bling.com.br/Api/v2/`,
 });
 
 module.exports = { pipedriveApi, blingApi };
