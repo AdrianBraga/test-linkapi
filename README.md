@@ -36,10 +36,10 @@ Para rodar a aplicação, você precisa ter instalado o Git, Node e para fazer a
 
 ```bash
 # Clonar o repositório
-$ git clone 
+$ git clone https://github.com/AdrianBraga/test-linkapi.git
 
 # Entrar no diretório
-$ cd foodfy
+$ cd test-linkapi
 
 # Instalar as dependências
 $ npm install
